@@ -29,6 +29,5 @@ class News(models.Model):
         
     def increment_views(self):
         self.news_views += 1
-        self.save()from django.db import models
-
+        self.save()
 # Create your models here.
