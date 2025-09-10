@@ -30,7 +30,7 @@ PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1","sherin-khaira-torture.pbp.cs.ui.ac.id", "pbp.cs.ui.ac.id/sherin.khaira/torture"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1","152.118.29.139", "sherin-khaira-torture.pbp.cs.ui.ac.id", "pbp.cs.ui.ac.id/sherin.khaira/torture"]
 
 
 # Application definition
